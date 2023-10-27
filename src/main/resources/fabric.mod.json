@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "tactical_graphics_card",
+    "version": "${version}",
+    "name": "Tactical Graphics Card",
+    "description": "This mod added Powerful Graphics card to you game",
+    "authors": [
+        "Arrokoth233",
+        "Radekemia",
+        "Mikhail Tapio"
+    ],
+    "contact": {
+        "repo": "https://github.com/DoveCotMC/Tactical-Graphics-Card-2"
+    },
+    "license": "All-Rights-Reserved",
+    "icon": "assets/Tactical-Graphics-Card/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "client": [
+            "team.dovecotmc.tacticalgraphicscard.tacticalgraphicscard.client.TacticalGraphicsCardClient"
+        ],
+        "main": [
+            "team.dovecotmc.tacticalgraphicscard.tacticalgraphicscard.TacticalGraphicsCard"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+        "minecraft": "${minecraft_version}"
+    }
+}
